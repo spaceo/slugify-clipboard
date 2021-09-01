@@ -1,0 +1,34 @@
+{
+  "name": "slugify-clipboard",
+  "version": "1.0.0",
+  "description": "Takes clipboard content and slugifies it, baby!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-typescript": "tsc",
+    "slugmeup": "node ./output/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spaceo/slugify-clipboard.git"
+  },
+  "keywords": [
+    "node",
+    "slug",
+    "clipboard",
+    "text"
+  ],
+  "author": "Mikkel Jakobsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spaceo/slugify-clipboard/issues"
+  },
+  "homepage": "https://github.com/spaceo/slugify-clipboard#readme",
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "slug": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "typescript": "^4.4.2"
+  }
+}
