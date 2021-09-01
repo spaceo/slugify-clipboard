@@ -1,4 +1,3 @@
-// import clipboardy from 'clipboardy';
 const cb = require('clipboardy');
 const slug = require('slug');
 
